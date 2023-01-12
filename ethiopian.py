@@ -1,4 +1,4 @@
-#Ethipian Multiply
+#Ethiopian Multiply
 
 #사용자 값 받기
 m = int(input("숫자를 하나 입력하세요>> ")
@@ -8,3 +8,7 @@ result = 0
 
 print(m,n)
 
+#반복해서 왼쪽 값은 2로 나눈 후 몫을 구하고, 오른쪽 값은 2로 곱하기
+while m >= 1:
+    m //= 2
+    n *= 2
