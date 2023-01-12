@@ -1,8 +1,8 @@
 #Ethiopian Multiply
 
 #사용자 값 받기
-m = int(input("Enter the number>> ")
-n = int(input("Enter the another number >> ")
+m = int(input("Enter the number>> "))
+n = int(input("Enter the another number >> "))
 
 result = 0
 
